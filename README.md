@@ -298,5 +298,6 @@ insurance-cross-sell-predictor/
 ├── LICENSE                                                # MIT License file
 ├── README.md                                              # Project documentation
 ├── classification-of-insurance-cross-selling-eda.ipynb    # Comprehensive data analysis, statistical testing, and feature relationship exploratio
-└── insurance-selling-weight-of-evidence-catboost.ipynb    # Advanced feature engineering with WoE encoding and CatBoost model implementation
+├── insurance-selling-weight-of-evidence-catboost.ipynb    # Advanced feature engineering with WoE encoding and CatBoost model implementation
+└── requirements.txt                                       # Python packages and project dependencies
 ```
