@@ -1,0 +1,80 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# --- Data files (avoid committing large datasets) ---
+data/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.db
+*.sqlite
+
+# --- Model artifacts / checkpoints ---
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.cbm
+*.h5
+models/
+checkpoints/
+*.ckpt
+
+# --- Logs and experiment tracking ---
+*.log
+logs/
+mlruns/
+wandb/
+.neptune/
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Environment variables / secrets ---
+.env
+*.env
+config.ini
+secrets.yaml
+
+# --- Jupyter kernel metadata (optional, keeps diffs cleaner) ---
+*.ipynb_meta
